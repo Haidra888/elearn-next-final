@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "elearn",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authelearn2c78a571",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

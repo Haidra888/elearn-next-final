@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "add-to-group"
+  ],
+  "parentResource": "elearn2c78a571",
+  "functionName": "elearn2c78a571PostConfirmation",
+  "resourceName": "elearn2c78a571PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "/Users/brijeshwawdhane/.nvm/versions/node/v14.15.5/lib/node_modules/@aws-amplify/cli/node_modules/amplify-category-auth/provider-utils/awscloudformation/triggers/PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "elearn2c78a571PostConfirmation",
+  "skipEdit": true,
+  "GROUP": "students",
+  "enableCors": false
+}

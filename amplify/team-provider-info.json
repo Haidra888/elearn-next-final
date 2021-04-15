@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-elearn-dev-123130-authRole",
+      "UnauthRoleArn": "arn:aws:iam::911756034838:role/amplify-elearn-dev-123130-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::911756034838:role/amplify-elearn-dev-123130-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-elearn-dev-123130-deployment",
+      "UnauthRoleName": "amplify-elearn-dev-123130-unauthRole",
+      "StackName": "amplify-elearn-dev-123130",
+      "StackId": "arn:aws:cloudformation:us-east-1:911756034838:stack/amplify-elearn-dev-123130/c1254f90-9a93-11eb-ba32-0e1c3468127d",
+      "AmplifyAppId": "d20xpdq3hfgpix"
+    },
+    "categories": {
+      "auth": {
+        "elearn2c78a571": {}
+      },
+      "function": {
+        "elearn2c78a571PostConfirmation": {
+          "GROUP": "students",
+          "deploymentBucketName": "amplify-elearn-dev-123130-deployment",
+          "s3Key": "amplify-builds/elearn2c78a571PostConfirmation-5161685a725839786f67-build.zip"
+        }
+      }
+    }
+  }
+}
